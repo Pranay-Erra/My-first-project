@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <style>
+        .stk
+        {
+            background-color: black;
+            color: aliceblue;
+            border-radius: 20px;
+            color: red;
+        }
+        body
+        {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+    <table>
+        <tr>
+            <td>
+    <button class="stk" onmouseover="document.getElementById('ref2').innerHTML = 'SRKR'">
+        click me to know ur clg</button>
+    
+    <p id="ref2">see here</p>
+</td>
+
+    
+
+<td>
+    <br>
+    <button class="stk" onclick="document.getElementById('reference').innerHTML= Date()">
+        click me to know the date</button>
+    <p id="reference">display here</p>
+</td>
+
+<td>
+    <br>
+    <button class="stk" onmouseenter="myfun()">gesture here to see window alert</button>
+</td>
+    <script>
+        function myfun()
+        {
+            window.alert("Sunday");
+        }
+    </script>
+</tr>
+</table>
+</body>
+</html>
